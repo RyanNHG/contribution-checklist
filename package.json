@@ -1,0 +1,30 @@
+{
+  "name": "contribution-checklist",
+  "version": "1.0.0",
+  "description": "Create better issues and pull requests, go through the checklist!",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elm",
+    "process",
+    "bot",
+    "contribution",
+    "checklist"
+  ],
+  "author": "Evan Czaplicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/process-bot/contribution-checklist/issues"
+  },
+  "homepage": "https://github.com/process-bot/contribution-checklist#readme",
+  "dependencies": {
+    "github": "^9.2.0",
+    "githubhook": "^1.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
